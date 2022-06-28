@@ -13,19 +13,29 @@ In addition to the above, these tickers had an increase of more than 150% in the
 ### Refactoring the Code: 
  The runtime of the original code and Refactor for each year will be shown below.  
 #### Original Code Run-Times 
- 
+ ![image](https://user-images.githubusercontent.com/107591542/176059448-24e7552e-00ff-461f-b733-21552cea3391.png)
+
+![image](https://user-images.githubusercontent.com/107591542/176059491-8020224b-8959-47b2-9876-3704d7dd6ecb.png)
+
  
 #### Refactored Code Run-Times 
 
- 
+ ![image](https://user-images.githubusercontent.com/107591542/176059508-bab3a9ac-2254-460a-99c1-f364fdb65264.png)
+
+![image](https://user-images.githubusercontent.com/107591542/176059539-894c884c-14b6-4aa3-998c-2749d051d190.png)
+
  
 
 We can see from the screenshots taken at each year's run that the runtime was substantially reduced with the refactored code because this code included going through all the data once instead of using a loop for each ticker. For this runtime enhancement three output arrays were declared tickerVolumes, tickerStartingPrices, and tickerEndingPrices.
 The analysis with original code for each year took approximately two seconds to run, whereas the analysis with refactoring code took approximately 0.37 seconds to run. It means that refactored code was more efficient that the original one in more than 80%  
 #### Original Code:
  
-#### Refactoring code:
+ ![image](https://user-images.githubusercontent.com/107591542/176059584-95961023-3a65-45f4-8931-682b3759b344.png)
+
+#### Refactored code:
  
+ ![image](https://user-images.githubusercontent.com/107591542/176059620-4bbcdab8-5532-4012-a483-41f4e94ef0c3.png)
+
 ## Advantages or disadvantages of refactoring code
 There are some reasons why a company might want to refactor existing code, the most common is to increase the performance of the process, so one of the affected metrics is execution time. Making the code more efficient implies that we will obtain a very important benefit and it is the reduction of the execution times of the process, use less memory and ease the reading and understanding of the programming code by other programmers.
 
